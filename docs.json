@@ -16,6 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
+              "abcomponenttest",
               "index",
               "quickstart",
               "development"
