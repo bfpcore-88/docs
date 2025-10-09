@@ -1,13 +1,166 @@
 ---
-title: "New file"
-description: "Description of your new file."
+title: "Testing Components"
+description: "Testing the components in Mintlify."
 ---
 
+Text
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+> Block quote
+
+- unordered
+- list
+
+1. numbered
+2. list
+
+| table | | |
+| ----- | --- | --- |
+|       | | |
+|       | | |
+
+Image
+
+![Hero Dark Pn](/images/hero-dark.png)
+
+Video Embedding
+
+<iframe src="https://www.youtube.com/embed/r9L4AseD-aA" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+
+<Info>
+  Info callout box
+</Info>
+
+<Check>
+  Check callout
+</Check>
+
+<Note>
+  Note callout
+</Note>
+
+<Tip>
+  Tip callout
+</Tip>
+
+<Warning>
+  Warning callout
+</Warning>
+
+<Danger>
+  Danger callout
+</Danger>
+
+<Accordion title="This is an accordion" icon="sparkles">
+  this is an accordion
+</Accordion>
+
 <AccordionGroup>
-  <Accordion title="Accordion 2" description="bye" icon="chart-bullet" iconType="duotone">
+  <Accordion title="New Accordion" icon="sparkles">
     
   </Accordion>
-  <Accordion title="Accordion 1" description="hi" icon="sparkles">
-    test one
+  <Accordion title="New Accordion" icon="sparkles">
+    
   </Accordion>
 </AccordionGroup>
+
+<Card title="New Card" icon="sparkles">
+  this is a card
+</Card>
+
+<Card title="New Card" icon="castle" iconType="solid" color="#00ff0e" horizontal cta="do you like this card?">
+  this is a card group?
+
+  <Card title="New Card" icon="sparkles">
+    <Card title="New Card" icon="sparkles">
+      
+    </Card>
+  </Card>
+</Card>
+
+```swift filenaasda
+code block
+```
+
+<CodeGroup>
+
+``` filename
+// add code here
+code 
+```
+
+
+``` File 2
+more code
+```
+
+</CodeGroup>
+
+<Icon icon="castle" color="#f500ff" size={80} />
+
+<Tabs>
+  <Tab title="Tab">
+    asdadsadsad
+  </Tab>
+  <Tab title="Tab">
+    asdadasdas123123123123
+  </Tab>
+</Tabs>
+
+<Steps>
+  <Step title="New Step">
+    step 1
+  </Step>
+  <Step title="New Step">
+    step 2
+  </Step>
+</Steps>
+
+<Frame>
+  frame
+</Frame>
+
+<Update label="10/09/2025" description="">
+  Keeps track of updates
+</Update>
+
+<ParamField path="param" type="string">
+  param fields
+
+  <ResponseField name="response" type="string">
+    response fields
+
+    <Expandable title="Content">
+      expandable
+    </Expandable>
+  </ResponseField>
+</ParamField>
+
+<RequestExample>
+
+``` filename
+request example
+```
+
+</RequestExample>
+
+<ResponseExample>
+
+``` filename
+response example
+```
+
+</ResponseExample>
+
+$=1+1$ \<-- formulas
+
+$$
+=1+2*53/3.5
+$$
+
+inline math
